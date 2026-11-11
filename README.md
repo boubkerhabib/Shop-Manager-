@@ -6,7 +6,7 @@
 
 Les données des produits sont récupérées dynamiquement depuis une API REST à l'aide de la Fetch API.
 
-Ce projet est développé avec **HTML5, CSS3 et JavaScript natif (Vanilla JS)**, sans utiliser de framework.
+Ce projet est développé avec **HTML5, tailwand et JavaScript natif (Vanilla JS)**, sans utiliser de framework.
 
 ## 🎯 Objectifs du projet
 
@@ -44,14 +44,14 @@ Ce projet est développé avec **HTML5, CSS3 et JavaScript natif (Vanilla JS)**,
 - Filtrage selon un prix maximum.
 - Affichage uniquement des produits disponibles en stock.
 - Combinaison de plusieurs critères de filtrage.
-- Réinitialisation des filtres avec un bouton Reset.
+- Réinitialisation des filtres avec un button Reset.
 
 ## 🛠️ Technologies utilisées
 
 | Technologie | Utilisation |
 |---|---|
 | HTML5 | Structure de l'application |
-| CSS3 | Design et responsive |
+| tailawnd | Design et responsive |
 | JavaScript (Vanilla JS) | Logique et interactions |
 | Fetch API | Communication avec l'API |
 | Async / Await | Gestion des opérations asynchrones |
@@ -77,21 +77,14 @@ Shop-Manager/
 │
 ├── assets/
 │   ├── images/
+    ├── logo/
 │   └── icons/
 │
 ├── css/
-│   ├── variables.css
-│   ├── reset.css
-│   ├── style.css
-│   └── responsive.css
+│   └── j'utilise tailwand
 │
 └── js/
-    ├── main.js
-    ├── api.js
-    ├── products.js
-    ├── search.js
-    ├── filters.js
-    └── ui.js
+    └──  script.js
 ```
 
 ## 🚀 Installation et lancement
